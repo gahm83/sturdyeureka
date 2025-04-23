@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/mac/Sites/ares-frontend/src/app/layout\":[\"static/media/69ac588664c7d040-s.p.woff2\",\"static/media/88ea60ed2345ae14-s.p.woff2\",\"static/media/ab4f752e702d5d59-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/mac/Sites/ares-frontend/src/app/layout":["static/media/88ea60ed2345ae14-s.p.woff2","static/media/69ac588664c7d040-s.p.woff2","static/media/ab4f752e702d5d59-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
