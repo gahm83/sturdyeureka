@@ -5,73 +5,60 @@ import imageServicios from "../../public/image-servicios.jpg";
 export default function Home() {
   return (
     <main>
-
       <section className="hero flex items-end justify-center">
         <div className="w-full max-w-[1150px] pb-24">
           <h1 className="text-[56px] font-sans font-bold">Success through design</h1>
         </div>
       </section>
-      <section className="py-16">
-        <div className="w-full max-w-[1150px] mx-auto grid grid-cols-5 items-start">
-          <div className="flex flex-col justify-center">
-            <h2>
-              <span className="flex items-center text-[#989F9C]">
-                <span className="text-8xl">50</span>
-                <sup className="text-4xl -mt-4">+</sup>
-              </span>
-            </h2>
-            <p className="w-1/2">Años de experiencia</p>
+      <section className="bg-world-map bg-center bg-no-repeat py-24">
+        <div className="w-full max-w-[1150px] mx-auto">
+          <div className="grid grid-cols-5 items-start">
+            <div className="flex flex-col justify-center">
+              <h2>
+                <span className="flex items-center text-[#989F9C]">
+                  <span className="text-8xl">50</span>
+                  <sup className="text-4xl -mt-4">+</sup>
+                </span>
+              </h2>
+              <p className="w-1/2">Años de experiencia</p>
+            </div>
+            <div className="flex flex-col justify-center">
+              <h2>
+                <span className="flex items-center text-[#989F9C]">
+                  <span className="text-8xl">16</span>
+                  <sup className="text-4xl -mt-4">+</sup>
+                </span>
+              </h2>
+              <p className="w-1/2">Paises</p>
+            </div>
+            <div className="flex flex-col justify-center">
+              <h2>
+                <span className="flex items-center text-[#989F9C]">
+                  <span className="text-8xl">4</span>
+                  <sup className="text-4xl -mt-4">+</sup>
+                </span>
+              </h2>
+              <p className="w-1/2">Millones de m² diseñados</p>
+            </div>
+            <div className="flex flex-col justify-center">
+              <h2>
+                <span className="flex items-center text-[#989F9C]">
+                  <span className="text-8xl">11</span>
+                  <sup className="text-4xl -mt-4">+</sup>
+                </span>
+              </h2>
+              <p className="w-1/2">Premios</p>
+            </div>
+            <div className="flex flex-col justify-center">
+              <h2>
+                <span className="flex items-center text-[#989F9C]">
+                  <span className="text-8xl">110</span>
+                  <sup className="text-4xl -mt-4">+</sup>
+                </span>
+              </h2>
+              <p className="w-1/2">Proyectos en México y LATAM</p>
+            </div>
           </div>
-          <div className="flex flex-col justify-center">
-            <h2>
-              <span className="flex items-center text-[#989F9C]">
-                <span className="text-8xl">16</span>
-                <sup className="text-4xl -mt-4">+</sup>
-              </span>
-            </h2>
-            <p className="w-1/2">Paises</p>
-          </div>
-          <div className="flex flex-col justify-center">
-            <h2>
-              <span className="flex items-center text-[#989F9C]">
-                <span className="text-8xl">4</span>
-                <sup className="text-4xl -mt-4">+</sup>
-              </span>
-            </h2>
-            <p className="w-1/2">Millones de m² diseñados</p>
-          </div>
-          <div className="flex flex-col justify-center">
-            <h2>
-              <span className="flex items-center text-[#989F9C]">
-                <span className="text-8xl">11</span>
-                <sup className="text-4xl -mt-4">+</sup>
-              </span>
-            </h2>
-            <p className="w-1/2">Premios</p>
-          </div>
-          <div className="flex flex-col justify-center">
-            <h2>
-              <span className="flex items-center text-[#989F9C]">
-                <span className="text-8xl">110</span>
-                <sup className="text-4xl -mt-4">+</sup>
-              </span>
-            </h2>
-            <p className="w-1/2">Proyectos en México y LATAM</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="w-full max-w-[1150px] mx-auto grid grid-cols-5">
-          
-        </div>
-      </section>
-      <section>
-        <div className="w-full max-w-[1150px] mx-auto grid grid-cols-5">
-          
-        </div>
-      </section>
-      <section>
-        <div className="w-full max-w-[1150px] mx-auto space-y-10">
           <div className="aspect-video flex items-center justify-center">
             <h2 className="text-8xl text-center">Experiencia global, enfoque local</h2> 
           </div>
@@ -93,7 +80,7 @@ export default function Home() {
               <p>España</p>
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center mt-10">
             <a href="" className="bg-[#636B69] text block px-6 py-3 rounded-full text-white font-bold">Conoce El estudio</a>
           </div>
         </div>
@@ -121,6 +108,83 @@ export default function Home() {
             <Image src={imageServicios} className="rounded-xl" alt="Dropdown Icon" />
           </div>
         </div>
+      </section>
+      <section className="bg-[#F5F5F5] rounded-t-xl py-20 space-y-20">
+        <div className="w-full max-w-[1150px] mx-auto">
+          <div className="grid grid-cols-2">
+            <h2 className="text-5xl text-[#636B69] font-bold">Diseñamos desde la coolaboración</h2>
+            <p className="text-right pl-24">Escuchamos, entendemos y colaboramos con cada cliente para dar vida a espacios que reflejan su esencia y superan expectativas</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 overflow-hidden">
+          <div className="tag-line">
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+          </div>
+          <div className="tag-line">
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+          </div>
+          <div className="tag-line">
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+          </div>
+          <div className="tag-line">
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+            <a href="">Artha Capital</a>
+            <a href="">Carros Jalisco</a>
+            <a href="">Grupo Chedraui</a>
+            <a href=""><strong>Chivas</strong></a>
+            <a href="">City Express</a>
+            <a href=""><strong>Walmart</strong></a>
+            <a href="">Constructora Stiva</a>
+          </div>
+        </div>
+          <div className="w-full max-w-[1150px] mx-auto">
+            <a href="" className="bg-[#636B69] inline-flex self-start px-6 py-3 rounded-full text-white font-bold">Conoce El estudio</a>
+          </div>
       </section>
     </main>
   );

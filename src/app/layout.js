@@ -36,7 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${Gilmer.variable} antialiased`}>
+      <body className={`${Gilmer.variable} text-lg antialiased`}>
         <header className="flex items-center justify-between absolute top-8 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-xs w-full max-w-[1150px] h-[70px] rounded-4xl overflow-hidden px-7 font-bold">
           <Image src={brandLogo} alt="Ares" />
           <nav className="flex items-center space-x-6">

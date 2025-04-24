@@ -26,6 +26,16 @@ body {
   font-family: var(--font-gilmer);
 }
 
+header {
+  nav {
+    a {
+  
+  
+      @apply flex items-center
+    }
+  }
+}
+
 section.hero {
   background-image: url('../../public/bg-hero.jpg');
   background-size: cover;
@@ -33,10 +43,12 @@ section.hero {
   aspect-ratio: 16 / 9;
 }
 
-nav {
+
+
+.tag-line {
+  @apply flex space-x-4;
   a {
-
-
-    @apply flex items-center
+    @apply rounded-full block py-2 px-6 bg-white text-[#636B69] whitespace-nowrap;
   }
 }
+
